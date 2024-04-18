@@ -1,0 +1,21 @@
+.product-card {
+    height: 100%;
+    /* Đảm bảo các khung sản phẩm có chiều cao như nhau */
+}
+
+.product-card .card {
+    height: 100%;
+    /* Đảm bảo các thẻ card trong khung sản phẩm có chiều cao như nhau */
+}
+
+.card-img-top {
+    height: 200px;
+    /* Thiết lập chiều cao cố định cho ảnh */
+    object-fit: cover;
+    /* Đảm bảo ảnh sẽ được căn chỉnh và cắt tỉa phù hợp */
+}
+
+.add-to-cart-btn {
+    margin-top: 10px;
+    /* Điều chỉnh khoảng cách từ nút "Thêm vào giỏ hàng" lên trên */
+}
